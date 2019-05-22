@@ -136,10 +136,6 @@ public class SimonSays extends KeyAdapter {
 			speak("simon says press this key");
 			simonSays = true;
 		}
-		if (simonSays == false) {
-			Date timeAtEnd = new Date();
-			System.out.println((timeAtEnd.getTime()-timeAtStart.getTime())/1000);
-		}
 		// 14. Above, set the value of simonSays to true/false appropriate
 	}
 
