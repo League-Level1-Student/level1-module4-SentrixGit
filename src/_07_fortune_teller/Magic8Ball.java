@@ -7,10 +7,32 @@ package _07_fortune_teller;
 
 import java.util.Random;
 
+import javax.swing.JOptionPane;
+
 public class Magic8Ball {
 
 	// 1. Make a main method that includes all the steps below….
-
+	public static void main(String[] args) {
+		int randomNumber = new Random().nextInt(5);
+		
+		System.out.println(randomNumber);
+		
+		JOptionPane.showInputDialog(null, "What is ur question?");
+		
+		if (randomNumber == 0) {
+			JOptionPane.showMessageDialog(null, "Yes");
+		} else if (randomNumber == 1) {
+			JOptionPane.showMessageDialog(null, "No");
+		} else if (randomNumber == 2) {
+			JOptionPane.showMessageDialog(null, "You have a message from epic games: \n"
+					+ "Your acount has been deleted and ur moms credit card has been charged and now"
+					+ "you are in debt of over infinite to the power of infinite USD.");
+		} else if (randomNumber == 3) {
+			JOptionPane.showMessageDialog(null, "idk go ahead and ask alexa or google idc");
+		} else if (randomNumber == 4) {
+			JOptionPane.showMessageDialog(null, "The answer to the universe and everything is 42");
+		}
+	}
 	// 2. Make a variable that will hold a random number and put a random number into this variable using "new Random().nextInt(4)"
 
 	// 3. Print out this variable
@@ -27,6 +49,29 @@ public class Magic8Ball {
 
 	// 7. If the random number is 2
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	// -- tell the user "Maybe you should ask Google?"
 
 	// 8. If the random number is 3
