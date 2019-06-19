@@ -21,6 +21,7 @@ public class yay {
 			if (random == 1) {
 				try {
 					frame.add(createLabelImage("turtle.png"));
+					JOptionPane.showMessageDialog(null, "Yay u ded it");
 				} catch (MalformedURLException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
@@ -41,10 +42,6 @@ public class yay {
 				}
 			}
 		}
-		
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
-		frame.setVisible(true);
 		
 	}
 	
